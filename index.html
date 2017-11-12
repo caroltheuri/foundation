@@ -1,0 +1,167 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AwardsFoundation</title>
+  <link rel="stylesheet" href="css/foundation.css">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body>
+  <div class="top-bar">
+    <div class="title-bar-title">
+      <span data-responsive-toggle="responsive-menu" data-hide-for="medium">
+  <button class="menu-icon dark" type="button" data-toggle></button>
+</span><strong>Awards</strong>
+
+    </div>
+
+    <div id="responsive-menu">
+      <div class="top-bar-left">
+        <ul class="dropdown vertical medium-horizontal menu" data-responsive-menu data-magellan>
+          <li>
+            <a href="#">Home</a>
+            <ul class="menu vertical">
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contacts</a></li>
+              <li><a href="#">Team</a></li>
+            </ul>
+          </li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Team</a></li>
+          <li><a href="#">Contacts</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="section" id="Home">
+    <div class="grid-container" data-equalizer data-equalize-by-row="true">
+      <div class="grid-x grid-padding-x small-up-2 medium-up-3">
+        <div class="cell" data-equalizer-watch>
+          <div class="card">
+            <img src="img\Dirk Kuijt.jpg">
+            <div class="card-section">
+              <h2>Player1</h2>
+              <p>20 goals in a row</p>
+            </div>
+          </div>
+        </div>
+        <div class="cell" data-equalizer-watch>
+          <div class="card">
+            <img src="img\Mark-Connolly-Bolton-Wanderers-Profile_2652091.jpg">
+            <div class="card-section">
+              <h2>Player2</h2>
+              <p>50 goals in a row</p>
+            </div>
+          </div>
+        </div>
+        <div class="cell" data-equalizer-watch>
+          <div class="card">
+            <img src="img\Mark-Connolly-Bolton-Wanderers-Profile_2652091.jpg">
+            <div class="card-section">
+              <h2>Player3</h2>
+              <p>70 goals in a row.</p>
+            </div>
+          </div>
+        </div>
+        <div class="cell" data-equalizer-watch>
+          <div class="card">
+            <img class="thumbnail" src="img\Tom-Williams-on-loan-at-Colchester-from-Brist_2538690.jpg" alt="winner4">
+            <div class="card-section">
+              <h2>Player6</h2>
+              <p>70 goals in a row.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div class="section" id="About">
+    <div class="row">
+      <h1 class="lead">Awards 2017 for Footballers</h1>
+      <div class="column">
+        <p>I am as well, but I have so much text I take up more space! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis facere ducimus earum minus, inventore, ratione <span data-tooltip aria-haspopup="true" class="has-tip" data-disable-hover="false"
+            tabindex="1" title="Fancy word for a beetle.">doloremque
+    </span>deserunt neque perspiciatis accusamus explicabo soluta, quod provident distinctio aliquam omnis? Labore, ullam possimus</p>
+      </div>
+      <div class="column">
+        I am as well, but I have so much text I take up more space! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis facere ducimus earum minus, inventore, ratione doloremque deserunt neque perspiciatis accusamus explicabo soluta, quod provident
+        distinctio aliquam omnis? Labore, ullam possimus
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div class="section" id="Team">
+    <div class="form" data-abide novalidate>
+      <form>
+        <div class="grid-container">
+          <div class="grid-x grid-padding-x">
+            <div class="medium-4 cell">
+              <label>First name:
+          <input type="text" placeholder="enter your first name" required>
+        </label>
+              <label>Second name:
+          <input type="text" placeholder="enter your second name" required>
+        </label>
+              <label>Phone number:
+          <input type="number" placeholder="enter your phone number" id="number" aria-describedby="number" required pattern="number">
+          <span class="form-error">
+          fill this chapchap
+        </span>
+        </label>
+            </div>
+            <div class="medium-4 cell">
+              <label>Write sth about you
+          <input type="text" placeholder="who are you?">
+        </label>
+              <label>choose your favourite
+              <select>
+                <option value="1">chips</option>
+                <option value="2">githeri</option>
+                <option value="3">apple</option>
+                <option value="4">peanuts</option>
+              </select>
+          </label>
+            </div>
+            <div class="medium-4 cell">
+              <fieldset>
+                <legend>tick the places you have visited</legend>
+                <input id="checkbox1" type="checkbox"><label for="checkbox1">nairobi national park</label>
+                <input id="checkbox2" type="checkbox"><label for="checkbox2">kisumu</label>
+                <input id="checkbox3" type="checkbox"><label for="checkbox3">mombasa</label>
+              </fieldset>
+              <label for="FileUpload" class="button">Upload File that has your pic</label>
+              <input type="file" id="FileUpload" class="show-for-sr">
+              <fieldset>
+                <button class="button" type="submit" value="Submit">Submit</button>
+              </fieldset>
+              <button type="button" class="success button">resend</button>
+            </div>
+          </div>
+        </div>
+      </form>
+
+    </div>
+  </div>
+  <div class="section">
+    <ul class="accordion" data-accordion>
+      <li class="accordion-item" data-accordion-item>
+        <a href="#" class="accordion-title">Accordion 1</a>
+        <div class="accordion-content" data-tab-content>
+          <p>Please give me your e-mail address.</p>
+        </div>
+      </li>
+    </ul>
+
+
+  </div>
+
+</body>
+
+
+</html>

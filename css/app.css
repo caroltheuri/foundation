@@ -1,0 +1,13 @@
+body{
+  background-color: #FF5733;
+}
+a{
+  color:black;
+  font-size: 20px;
+  font-weight: bold;
+}
+@import 'foundation';
+h1{
+  text-align: center;
+  font-weight: bold;
+}
